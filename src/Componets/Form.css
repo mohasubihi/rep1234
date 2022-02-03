@@ -1,0 +1,146 @@
+
+
+
+ 
+  
+  
+  .form-content-right-Login {
+    
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 100px auto;
+    width: 375px;
+    border-radius: 50px;
+    height: 600px;
+    border-radius: 20px 20px 15px 20px;
+    position: relative;
+    background: linear-gradient(60deg, rgb(41, 6, 240)0%, rgb(4, 228, 71) 100%);
+    
+  }
+
+  .form-content-right-Signup{
+    box-sizing: inherit;
+    box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 100px auto;
+    width: 400px;
+    border-radius: 50px;
+    height: 800px;
+    border-radius: 20px 20px 15px 20px;
+    position: relative;
+    background: linear-gradient(60deg, rgb(41, 6, 240)0%, rgb(4, 228, 71) 100%);
+
+  }
+  
+  .form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: right;
+  }
+  
+  /* this p for errore mssg */
+
+  .form-Signup p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: rgb(248, 79, 79);
+    padding :0px;
+    margin: 0px;
+  }
+  .form-Login p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: rgb(248, 79, 79);
+  }
+  .form h1 {
+    font-size: 3rem;
+    text-align: center ;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+ 
+   /* this label & input .. for poth pages */
+  .form-label {
+    margin-top: 5px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.1em;
+    color: white;
+  }
+  
+  .form-input{
+    display: block;
+    background-color: transparent;
+    outline: none;
+    border-radius: none;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #f3f4f7;
+    
+  }
+  
+  .form-input::placeholder {
+    color: #c2cbd6;
+    font-size: 15px;
+    
+  }
+  
+  .form-inbut-btn {
+    margin-top: 30px;
+    border-radius: 25px;
+  padding: 10px 130px;
+  font-size: 0.8em;
+  font-weight: 500;
+    background: linear-gradient(
+      90deg,
+      rgb(12, 235, 131) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .form-inbut-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 143, 255) 0%,
+      rgb(12, 99, 250) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+  
+  .form-input-Forget a {
+
+    text-decoration: none;
+    color: #80ED99;
+    font-weight: 600;
+    
+
+  }
+  .form-input-navigation {
+    font-size: 1rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #fff;
+    width: 80%;
+    text-align: right;
+  }
+  
+  .form-input-navigation a {
+    text-decoration: none;
+    color: #80ED99;
+    font-weight: 600;
+    box-align: center;
+    
+  }
